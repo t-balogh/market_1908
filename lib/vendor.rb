@@ -7,10 +7,10 @@ class Vendor
   end
 
   def check_stock(name)
-    @inventory
+    name = 0
   end
 
   def stock(name, amount)
-    name = 30
+
   end
 end
