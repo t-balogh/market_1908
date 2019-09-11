@@ -1,16 +1,20 @@
 class Vendor
-  attr_reader :name, :inventory
+  attr_reader :name
 
   def initialize(name)
     @name = name
-    @inventory = {}
+    @fruit = 0
   end
 
-  def check_stock(name)
-    name = 0
+  def inventory
+    hash = {}
   end
 
-  def stock(name, amount)
+  def check_stock(fruit)
+    @fruit
+  end
 
+  def stock(fruit, amount)
+    @fruit += amount
   end
 end
